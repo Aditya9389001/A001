@@ -1,3 +1,4 @@
+require("dotenv").config();  //  You can use dotenv in your application
 const express=require("express");
 const app=express();
 const contactRoute=require("./router/form-router");
