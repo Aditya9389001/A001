@@ -1,10 +1,12 @@
 
 const contactForm=async(req,res)=>{
     try{
-        res.status(200).json({msg:"Contact form"}); 
+        console.log(req.body)
+        const {name,contact,email,message}=req.body;
+        res.status(200).json({msg:req.body}); 
     }
     catch(error){
-res.status(400).send({msg:"home not found"});
+res.status(400).send({msg:"Error contact form"});
     }
 }
 
