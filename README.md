@@ -8,7 +8,7 @@
 - [How to setup](#how-to-setup)
   - [Clone the repo](#clone-the-repo)
   - [Install dependencies](#install-dependencies)
-- [Finally run the webapp](#finally-run-the-webapp)
+- [Finally run the Server](#finally-run-the-server)
 - [License](#license)
 
 ## Techstack
@@ -23,8 +23,8 @@
 Fork and clone the repo
 
 ```bash
-git clone git@github.com:AAshu1412/ao-database.git
-cd ao-database
+git clone git@github.com:Aditya9389001/A001.git
+cd A001
 ```
 
 ## Install dependencies
@@ -33,16 +33,13 @@ cd ao-database
 npm install
 ```
 
-# Finally run the webapp
+# Finally run the Server 
 
 ```bash
-cd ..
-npm start
+nodemon server.js
 ```
 
-The webapp will be running on `localhost:5173`
-
-To open the same application of another device for testing purposes, make sure that the device is connected to the same network as the device on which the webapp is running. Then visit `http://<IP_ADDRESS_OF_THE_DEVICE_RUNNING_THE_WEBAPP>:5173`
+The server will be running on `localhost:5000`
 
 # License
 
